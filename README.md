@@ -8,7 +8,7 @@ To use these dotfiles in a new machine:
  2. Create symbolic links in the home directory<br/>
     It can be done with `bash make-symlinks.sh`<br/>
     It will use a defaul list if no arguments are passed<br/>
-    Run for specific dotfiles with `bash make-symlinks.sh vimrc bash_aliases` (file name without .)
+    Run for specific dotfiles with `bash make-symlinks.sh vimrc bash_aliases` (file name without ".")
 
 ## Next times
 
