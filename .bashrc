@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# VisIt
+export PATH=$PATH:/usr/local/visit/bin
