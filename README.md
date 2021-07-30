@@ -5,9 +5,9 @@ Gather useful dotfiles for easy setup in multiple machines
 
 To use these dotfiles in a new machine:
  1. clone this repository under `$HOME/git`
- 2. Create symbolic links in the home directory.
-    Can be done with `bash make-symlinks.sh`
-    It will use a defaul list if no arguments are passed.
+ 2. Create symbolic links in the home directory<br/>
+    It can be done with `bash make-symlinks.sh`<br/>
+    It will use a defaul list if no arguments are passed<br/>
     Run for specific dotfiles with `bash make-symlinks.sh vimr bash_aliases` 
 
 ## Next times
