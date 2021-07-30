@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 old_dotfiles=$HOME/.old_dotfiles
 new_dotfiles=$HOME/git/dotfiles
 
