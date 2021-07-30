@@ -118,3 +118,7 @@ fi
 
 # VisIt
 export PATH=$PATH:/usr/local/visit/bin
+
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/Utilities/gems"
+export PATH="$HOME/Utilities/gems/bin:$PATH"
