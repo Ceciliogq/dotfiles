@@ -14,4 +14,4 @@ To use these dotfiles in a new machine:
 
 Whenever there is an update in the dotfiles, just refresh repo with `git pull` and changes will be updated automatically.
 
-Note: if different versions are required for different machines, create branches for each machine and follow the previous steps.
+**Note**: if different versions are required for different machines, create branches for each machine and follow the previous steps.
