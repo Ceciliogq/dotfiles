@@ -1,0 +1,5 @@
+channels:
+  - conda-forge
+  - defaults
+  - igwn
+env_prompt: ({name})
