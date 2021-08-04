@@ -17,7 +17,13 @@ alias nousersitetrue="export PYTHONNOUSERSITE=True"
 alias nousersitefalse="unset PYTHONNOUSERSITE";
 alias sys-path="python -c 'import sys; print(sys.path)'"  # Check where python looks for packages
 
-alias topreview='git checkout preview; git merge master; git push origin preview; git checkout master;' 
+# Switch between LAL installations in conda environment
+alias switch-conda-lal=". $HOME/git/dotfiles/switch-conda-lal.sh"
+
+# Alias to check LAL installation
+alias check-lal="python -c 'import lal; from lal import git_version; print(lal.__version__, lal.__file__); print(git_version.branch, git_version.id)'"
+
+alias topreview='git checkout preview; git merge master; git push origin preview; git checkout master;'
 #alias deploy='cd _site; git add .; git commit -m "Deploy update"; git push origin gh-pages; cd ..'
 alias jekyll-build='bundle exec jekyll build'
 
