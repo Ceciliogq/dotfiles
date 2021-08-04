@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 # Script to switch between lal installations in a igwn-like conda environment.
 
 
@@ -8,6 +9,10 @@
 # Then it will ask for the name of the new-lal installation to be switched to.
 
 # The result can be checked with the aliases check-lal, sys-path and by running e.g. python test_phenomX.py
+
+# Naming convention: I call current lal to the lal installation uner the conda file-structure.
+# old-lal is the backup or installation folder of the current lal.
+# new-lal is the new lal installation and folder that we are switching to.
 
 
 # Set the old-lal installation to be replaced

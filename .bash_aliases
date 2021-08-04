@@ -36,7 +36,7 @@ deploy(){
     cd ..
 }
 
-# Function to do all deploy steps for jekyll site
+# Function to do all the deploy steps for jekyll site
 deploy-all() {
     echo ">>> Building jekyll site..."
     jekyll-build
