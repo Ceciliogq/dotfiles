@@ -122,3 +122,7 @@ export PATH=$PATH:/usr/local/visit/bin
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/Utilities/gems"
 export PATH="$HOME/Utilities/gems/bin:$PATH"
+
+# CUDA
+export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
+
