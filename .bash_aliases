@@ -4,7 +4,7 @@ alias ....='...; cd ..'
 alias .....='....; cd ..'
 alias ......='.....; cd ..'
 
-alias gpu_session='srun -p gpu_interactive -t 0-02:00 --mem 2G --gres=gpu:[type]:1 --pty bash -i'
+alias gpu_session='srun -p gpu_interactive -t 0-02:00 --mem 2G --gres=gpu:v100:1 --pty bash -i'
 
 alias vpnuib='sudo openvpn --config /home/cecilio/Documents/UIB/vpn/vpnuib.crt'
 
