@@ -4,12 +4,14 @@ alias ....='...; cd ..'
 alias .....='....; cd ..'
 alias ......='.....; cd ..'
 
+alias gpu_session='srun -p gpu_interactive -t 0-02:00 --mem 2G --gres=gpu:[type]:1 --pty bash -i'
+
 alias vpnuib='sudo openvpn --config /home/cecilio/Documents/UIB/vpn/vpnuib.crt'
 
 alias matlas='sshfs cecilio@atlas.uib.es:/data /home/cecilio/Documents/UIB/atlas -o auto_cache,reconnect'
 alias umatlas="fusermount -u /home/cecilio/Documents/UIB/atlas"
 
-alias teamspeak='. /home/cecilio/Utilites/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh'
+alias teamspeak='/home/cecilio/Utilities/TeamSpeak3-Client-linux_amd64/ts3client_runscript.sh'
 
 alias open='xdg-open'
 
@@ -57,3 +59,5 @@ deploy-all() {
     deploy "$msg"
     echo "Done"
 }
+
+alias starwars="telnet towel.blinkenlights.nl"

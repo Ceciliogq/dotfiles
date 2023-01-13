@@ -126,3 +126,8 @@ export PATH="$HOME/Utilities/gems/bin:$PATH"
 # CUDA
 export PATH=/usr/local/cuda-11.4/bin${PATH:+:${PATH}}
 
+# LALSUITE
+export LAL_DATA_PATH=/media/cecilio/Elements/lalsuite-extra-build/share/lalsimulation
+
+# SVN
+export svn=svn://svn.gw-models.org
