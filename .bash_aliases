@@ -4,7 +4,7 @@ alias ....='...; cd ..'
 alias .....='....; cd ..'
 alias ......='.....; cd ..'
 
-alias scratch_picasso='cd /mnt/scratch/users/uib54_res/uib54017/'
+alias scratch_picasso='cd /mnt2/fscratch/users/uib54_res/uib54017/'
 alias scratch_mn4='cd /gpfs/scratch/uib91/uib91611'
 
 alias gpu_session='srun -p gpu_interactive -t 0-02:00 --mem 2G --gres=gpu:v100:1 --pty bash -i'
